@@ -1,0 +1,13 @@
+---
+applications:
+- instances: 1
+  timeout: 180
+  name: nodejsexpressapphntku20210917
+  buildpack: nodejs_buildpack
+  command: npm start
+  disk_quota: 1G
+  memory: 128MB
+  domain: mybluemix.net
+  host: nodejs-express-app-hntku-2021-09-17
+  env:
+    OPTIMIZE_MEMORY: true
